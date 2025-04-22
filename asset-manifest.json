@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/sermon/static/css/main.14a87e90.css",
-    "main.js": "/sermon/static/js/main.7e1d30c9.js",
+    "main.js": "/sermon/static/js/main.abcd2e71.js",
     "index.html": "/sermon/index.html",
     "main.14a87e90.css.map": "/sermon/static/css/main.14a87e90.css.map",
-    "main.7e1d30c9.js.map": "/sermon/static/js/main.7e1d30c9.js.map"
+    "main.abcd2e71.js.map": "/sermon/static/js/main.abcd2e71.js.map"
   },
   "entrypoints": [
     "static/css/main.14a87e90.css",
-    "static/js/main.7e1d30c9.js"
+    "static/js/main.abcd2e71.js"
   ]
 }
