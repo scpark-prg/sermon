@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>도움말</title>
+  <style>
+    body {
+      font-family: 'Malgun Gothic', 'Noto Sans KR', sans-serif;
+      padding: 20px;
+      line-height: 1.4;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    code {
+      background-color: #f9f9f9;
+      padding: 4px;
+      display: block;
+      white-space: pre-wrap;
+    }
+    .preview {
+      border: 1px solid #ddd;
+      padding: 10px;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+  <h1><center>OpenAI API Key 등록 및 결제 방법</center></h1>
+
+  <div class="step">
+    <h2>1. OpenAI 계정 로그인</h2>
+    <ul>
+      <h3><p><li><a href="https://platform.openai.com/" target="_blank">https://platform.openai.com/</a>
+      에 접속하여 계정에 로그인하거나 회원가입합니다.</li></p></h3>
+    </ul>
+  </div>
+
+  <div class="step">
+    <h2>2. API 키 생성하기</h2>
+    <ol><h3>
+      <li>오른쪽 상단의 프로필 아이콘을 클릭합니다.</li>
+      <li><strong>“View API Keys”</strong> 또는 <strong>“API 키 보기”</strong> 메뉴를 선택합니다.</li>
+      <li><strong>“Create new secret key”</strong> 버튼을 클릭하여 새 키를 생성합니다.</li>
+      <li>생성된 키를 복사하여 안전한 곳에 저장하세요. <strong>(다시 확인할 수 없습니다!)</strong></li>
+          - [설교문 작성 프로그램의 API Key 입력 박스에 붙여넣고 "API Key 저장" 버튼을 눌러 저장하세요.]<br> 
+      </li>
+    </h3></ol>
+  </div>
+
+  <div class="step">
+    <h2>3. 결제 수단 등록</h2>
+    <ol><h3>
+      <li>프로필 아이콘을 클릭하고 <strong>“Billing”</strong> 또는 <strong>“결제”</strong>를 클릭합니다.</li>
+      <li><strong>Payment Methods</strong> 탭에서 신용카드 정보를 입력합니다.</li>
+      <li>청구지 주소까지 입력 후 저장합니다.</li>
+    </h3></ol>
+  </div>
+
+  <div class="step">
+    <h2>📌 주의사항</h2>
+    <ul><h3>
+      <li>API 키는 외부에 노출되지 않도록 주의하세요.</li>
+      <li>비용은 매월 사용량 기준으로 청구됩니다.</li>
+    </h3></ul>
+  </div>
+</body>
+
+<body>
+  <br>
+  <h1><center>기본 HTML 태그 요약 및 예제</center></h1>
+  <h3><p>자주 사용하는 HTML 태그의 설명, 코드, 실제 출력 결과를 함께 확인할 수 있습니다.</p></h3>
+
+  <table>
+    <tr>
+      <th>태그</th>
+      <th>간단 설명</th>
+      <th>코드 예시</th>
+      <th>출력 결과</th>
+    </tr>
+    <tr>
+      <td>&lt;h1&gt; 
+        <br><br> ~ <br><br> 
+        &lt;h6&gt;</td>
+      <td>글자 크기</td>
+      <td><code>&lt;h1&gt;큰글자&lt;/h1&gt;</code>
+        <br>~<br><br>  
+      <code>&lt;h6&gt;작은글자&lt;/h6&gt;</code></td>
+      <td class="preview"><h1>큰글자</h1>
+        <h6>작은글자</h6>
+      </td>
+
+    </tr>
+
+    <tr>
+      <td>&lt;p&gt;</td>
+      <td>문단(단락)</td>
+      <td><code>&lt;p&gt;문단(단락)의 예시입니다.&lt;/p&gt;</code></td>
+      <td class="preview"><p>문단(단락)의 예시입니다.</p></td>
+    </tr>
+
+    <tr>
+      <td>&lt;strong&gt;</td>
+      <td>글씨 굵게</td>
+      <td><code>&lt;strong&gt;강조 텍스트&lt;/strong&gt;</code></td>
+      <td class="preview"><strong>강조 텍스트</strong></td>
+    </tr>
+
+    <tr>
+      <td>&lt;em&gt;</td>
+      <td>글씨 기울임</td>
+      <td><code>&lt;em&gt;기울임 텍스트&lt;/em&gt;</code></td>
+      <td class="preview"><em>기울임 텍스트</em></td>
+    </tr>
+
+    <tr>
+      <td>&lt;br&gt;</td>
+      <td>줄바꿈</td>
+      <td><code>줄바꿈&lt;br&gt;합니다</code></td>
+      <td class="preview">줄바꿈<br>합니다</td>
+    </tr>
+
+    <tr>
+      <td>&lt;hr&gt;</td>
+      <td>수평선</td>
+      <td><code>&lt;hr&gt;</code></td>
+      <td class="preview"><hr></td>
+    </tr>
+
+    <tr>
+      <td>&lt;blockquote&gt;</td>
+      <td>문단 들여쓰기</td>
+      <td><code>&lt;blockquote&gt;들여쓰기&lt;/blockquote&gt;</code></td>
+      <td class="preview"><blockquote>들여쓰기</blockquote></td>
+    </tr>
+
+    <tr>
+      <td>&lt;ul&gt;&lt;li&gt;</td>
+      <td>순서 없는 목록</td>
+      <td><code>&lt;ul&gt;\n  &lt;li&gt;항목1&lt;/li&gt;\n  &lt;li&gt;항목2&lt;/li&gt;\n&lt;/ul&gt;</code></td>
+      <td class="preview">
+        <ul>
+          <li>항목1</li>
+          <li>항목2</li>
+        </ul>
+      </td>
+    </tr>
+
+    <tr>
+      <td>&lt;ol&gt;&lt;li&gt;</td>
+      <td>순서 있는 목록</td>
+      <td><code>&lt;ol&gt;\n  &lt;li&gt;첫째&lt;/li&gt;\n  &lt;li&gt;둘째&lt;/li&gt;\n&lt;/ol&gt;</code></td>
+      <td class="preview">
+        <ol>
+          <li>첫째</li>
+          <li>둘째</li>
+        </ol>
+      </td>
+    </tr>
+
+  </table>
+
+</body>
+</html>
